@@ -620,10 +620,6 @@ header nav ul li a:hover {
 	color: #fff;
 }
 
-.textos .button {
-	margin-left: 20%;
-}
-
 .quote {
 	top: 0;
 	position: fixed;
@@ -741,6 +737,22 @@ form {
 	font-size: 18px;
 }
 
+
+/*beneficios*/
+
+.beneficios li{
+	display: flex;
+	align-items: center;
+	font-style: italic;
+	font-weight: bold;
+	color: #337ab7;
+}
+
+.beneficios i{
+	font-size: 48px;
+}
+
+
 /*MEDIAS*/
 
 @media (max-width: 767px) {
@@ -843,6 +855,10 @@ form {
 @media (max-width: 480px) {
 	.contactos .textos {
 		margin-top: 90px;
+	}
+
+	.contact-tittle {
+		margin-top: 22%;
 	}
 }
 
